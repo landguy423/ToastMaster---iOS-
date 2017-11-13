@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62AC70331D14018700042400 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AC70321D14018700042400 /* EventKit.framework */; };
+		62BFE8D31D12762900D54E4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BFE8D21D12762900D54E4C /* AppDelegate.swift */; };
+		62BFE8D51D12762900D54E4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BFE8D41D12762900D54E4C /* ViewController.swift */; };
+		62BFE8D81D12762900D54E4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BFE8D61D12762900D54E4C /* Main.storyboard */; };
+		62BFE8DA1D12762900D54E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BFE8D91D12762900D54E4C /* Assets.xcassets */; };
+		62BFE8DD1D12762900D54E4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BFE8DB1D12762900D54E4C /* LaunchScreen.storyboard */; };
+		62BFE8E81D12762900D54E4C /* ToastMastersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BFE8E71D12762900D54E4C /* ToastMastersTests.swift */; };
+		62BFE8F31D12762900D54E4C /* ToastMastersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BFE8F21D12762900D54E4C /* ToastMastersUITests.swift */; };
+		62BFE9021D127B5900D54E4C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BFE9011D127B5900D54E4C /* HomeViewController.swift */; };
+		62BFE9051D12B07B00D54E4C /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BFE9041D12B07B00D54E4C /* NewsViewController.swift */; };
+		62BFE9081D12B09900D54E4C /* AgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BFE9071D12B09900D54E4C /* AgendaViewController.swift */; };
+		62BFE90B1D12B0AC00D54E4C /* MeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BFE90A1D12B0AC00D54E4C /* MeetingViewController.swift */; };
+		62BFE90E1D12B0C600D54E4C /* ExecutiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BFE90D1D12B0C600D54E4C /* ExecutiveViewController.swift */; };
+		62BFE9161D12C6EC00D54E4C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62BFE9151D12C6EC00D54E4C /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62BFE8E41D12762900D54E4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62BFE8C71D12762900D54E4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62BFE8CE1D12762900D54E4C;
+			remoteInfo = ToastMasters;
+		};
+		62BFE8EF1D12762900D54E4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62BFE8C71D12762900D54E4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62BFE8CE1D12762900D54E4C;
+			remoteInfo = ToastMasters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62AC70321D14018700042400 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		62BFE8CF1D12762900D54E4C /* ToastMasters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToastMasters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BFE8D21D12762900D54E4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62BFE8D41D12762900D54E4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62BFE8D71D12762900D54E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62BFE8D91D12762900D54E4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62BFE8DC1D12762900D54E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62BFE8DE1D12762900D54E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62BFE8E31D12762900D54E4C /* ToastMastersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToastMastersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BFE8E71D12762900D54E4C /* ToastMastersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMastersTests.swift; sourceTree = "<group>"; };
+		62BFE8E91D12762900D54E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62BFE8EE1D12762900D54E4C /* ToastMastersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToastMastersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BFE8F21D12762900D54E4C /* ToastMastersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMastersUITests.swift; sourceTree = "<group>"; };
+		62BFE8F41D12762900D54E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62BFE9011D127B5900D54E4C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		62BFE9041D12B07B00D54E4C /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		62BFE9071D12B09900D54E4C /* AgendaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaViewController.swift; sourceTree = "<group>"; };
+		62BFE90A1D12B0AC00D54E4C /* MeetingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingViewController.swift; sourceTree = "<group>"; };
+		62BFE90D1D12B0C600D54E4C /* ExecutiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutiveViewController.swift; sourceTree = "<group>"; };
+		62BFE9151D12C6EC00D54E4C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62BFE8CC1D12762900D54E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AC70331D14018700042400 /* EventKit.framework in Frameworks */,
+				62BFE9161D12C6EC00D54E4C /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BFE8E01D12762900D54E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BFE8EB1D12762900D54E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62BFE8C61D12762900D54E4C = {
+			isa = PBXGroup;
+			children = (
+				62AC70321D14018700042400 /* EventKit.framework */,
+				62BFE9151D12C6EC00D54E4C /* MapKit.framework */,
+				62BFE90C1D12B0AF00D54E4C /* Executive */,
+				62BFE9091D12B09D00D54E4C /* Meeting */,
+				62BFE9061D12B08000D54E4C /* Agenda */,
+				62BFE9031D12B06900D54E4C /* News */,
+				62BFE9001D127B3600D54E4C /* Home */,
+				62BFE8D11D12762900D54E4C /* ToastMasters */,
+				62BFE8E61D12762900D54E4C /* ToastMastersTests */,
+				62BFE8F11D12762900D54E4C /* ToastMastersUITests */,
+				62BFE8D01D12762900D54E4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62BFE8D01D12762900D54E4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62BFE8CF1D12762900D54E4C /* ToastMasters.app */,
+				62BFE8E31D12762900D54E4C /* ToastMastersTests.xctest */,
+				62BFE8EE1D12762900D54E4C /* ToastMastersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62BFE8D11D12762900D54E4C /* ToastMasters */ = {
+			isa = PBXGroup;
+			children = (
+				62BFE8D21D12762900D54E4C /* AppDelegate.swift */,
+				62BFE8D41D12762900D54E4C /* ViewController.swift */,
+				62BFE8D61D12762900D54E4C /* Main.storyboard */,
+				62BFE8D91D12762900D54E4C /* Assets.xcassets */,
+				62BFE8DB1D12762900D54E4C /* LaunchScreen.storyboard */,
+				62BFE8DE1D12762900D54E4C /* Info.plist */,
+			);
+			path = ToastMasters;
+			sourceTree = "<group>";
+		};
+		62BFE8E61D12762900D54E4C /* ToastMastersTests */ = {
+			isa = PBXGroup;
+			children = (
+				62BFE8E71D12762900D54E4C /* ToastMastersTests.swift */,
+				62BFE8E91D12762900D54E4C /* Info.plist */,
+			);
+			path = ToastMastersTests;
+			sourceTree = "<group>";
+		};
+		62BFE8F11D12762900D54E4C /* ToastMastersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62BFE8F21D12762900D54E4C /* ToastMastersUITests.swift */,
+				62BFE8F41D12762900D54E4C /* Info.plist */,
+			);
+			path = ToastMastersUITests;
+			sourceTree = "<group>";
+		};
+		62BFE9001D127B3600D54E4C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				62BFE9011D127B5900D54E4C /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		62BFE9031D12B06900D54E4C /* News */ = {
+			isa = PBXGroup;
+			children = (
+				62BFE9041D12B07B00D54E4C /* NewsViewController.swift */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		62BFE9061D12B08000D54E4C /* Agenda */ = {
+			isa = PBXGroup;
+			children = (
+				62BFE9071D12B09900D54E4C /* AgendaViewController.swift */,
+			);
+			name = Agenda;
+			sourceTree = "<group>";
+		};
+		62BFE9091D12B09D00D54E4C /* Meeting */ = {
+			isa = PBXGroup;
+			children = (
+				62BFE90A1D12B0AC00D54E4C /* MeetingViewController.swift */,
+			);
+			name = Meeting;
+			sourceTree = "<group>";
+		};
+		62BFE90C1D12B0AF00D54E4C /* Executive */ = {
+			isa = PBXGroup;
+			children = (
+				62BFE90D1D12B0C600D54E4C /* ExecutiveViewController.swift */,
+			);
+			name = Executive;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62BFE8CE1D12762900D54E4C /* ToastMasters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BFE8F71D12762900D54E4C /* Build configuration list for PBXNativeTarget "ToastMasters" */;
+			buildPhases = (
+				62BFE8CB1D12762900D54E4C /* Sources */,
+				62BFE8CC1D12762900D54E4C /* Frameworks */,
+				62BFE8CD1D12762900D54E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToastMasters;
+			productName = ToastMasters;
+			productReference = 62BFE8CF1D12762900D54E4C /* ToastMasters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62BFE8E21D12762900D54E4C /* ToastMastersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BFE8FA1D12762900D54E4C /* Build configuration list for PBXNativeTarget "ToastMastersTests" */;
+			buildPhases = (
+				62BFE8DF1D12762900D54E4C /* Sources */,
+				62BFE8E01D12762900D54E4C /* Frameworks */,
+				62BFE8E11D12762900D54E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BFE8E51D12762900D54E4C /* PBXTargetDependency */,
+			);
+			name = ToastMastersTests;
+			productName = ToastMastersTests;
+			productReference = 62BFE8E31D12762900D54E4C /* ToastMastersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62BFE8ED1D12762900D54E4C /* ToastMastersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BFE8FD1D12762900D54E4C /* Build configuration list for PBXNativeTarget "ToastMastersUITests" */;
+			buildPhases = (
+				62BFE8EA1D12762900D54E4C /* Sources */,
+				62BFE8EB1D12762900D54E4C /* Frameworks */,
+				62BFE8EC1D12762900D54E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BFE8F01D12762900D54E4C /* PBXTargetDependency */,
+			);
+			name = ToastMastersUITests;
+			productName = ToastMastersUITests;
+			productReference = 62BFE8EE1D12762900D54E4C /* ToastMastersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62BFE8C71D12762900D54E4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kbs;
+				TargetAttributes = {
+					62BFE8CE1D12762900D54E4C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					62BFE8E21D12762900D54E4C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 62BFE8CE1D12762900D54E4C;
+					};
+					62BFE8ED1D12762900D54E4C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 62BFE8CE1D12762900D54E4C;
+					};
+				};
+			};
+			buildConfigurationList = 62BFE8CA1D12762900D54E4C /* Build configuration list for PBXProject "ToastMasters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62BFE8C61D12762900D54E4C;
+			productRefGroup = 62BFE8D01D12762900D54E4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62BFE8CE1D12762900D54E4C /* ToastMasters */,
+				62BFE8E21D12762900D54E4C /* ToastMastersTests */,
+				62BFE8ED1D12762900D54E4C /* ToastMastersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62BFE8CD1D12762900D54E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BFE8DD1D12762900D54E4C /* LaunchScreen.storyboard in Resources */,
+				62BFE8DA1D12762900D54E4C /* Assets.xcassets in Resources */,
+				62BFE8D81D12762900D54E4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BFE8E11D12762900D54E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BFE8EC1D12762900D54E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62BFE8CB1D12762900D54E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BFE90B1D12B0AC00D54E4C /* MeetingViewController.swift in Sources */,
+				62BFE90E1D12B0C600D54E4C /* ExecutiveViewController.swift in Sources */,
+				62BFE8D51D12762900D54E4C /* ViewController.swift in Sources */,
+				62BFE8D31D12762900D54E4C /* AppDelegate.swift in Sources */,
+				62BFE9021D127B5900D54E4C /* HomeViewController.swift in Sources */,
+				62BFE9081D12B09900D54E4C /* AgendaViewController.swift in Sources */,
+				62BFE9051D12B07B00D54E4C /* NewsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BFE8DF1D12762900D54E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BFE8E81D12762900D54E4C /* ToastMastersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BFE8EA1D12762900D54E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BFE8F31D12762900D54E4C /* ToastMastersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62BFE8E51D12762900D54E4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62BFE8CE1D12762900D54E4C /* ToastMasters */;
+			targetProxy = 62BFE8E41D12762900D54E4C /* PBXContainerItemProxy */;
+		};
+		62BFE8F01D12762900D54E4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62BFE8CE1D12762900D54E4C /* ToastMasters */;
+			targetProxy = 62BFE8EF1D12762900D54E4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62BFE8D61D12762900D54E4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62BFE8D71D12762900D54E4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62BFE8DB1D12762900D54E4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62BFE8DC1D12762900D54E4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62BFE8F51D12762900D54E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62BFE8F61D12762900D54E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62BFE8F81D12762900D54E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToastMasters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ToastMasters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62BFE8F91D12762900D54E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToastMasters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ToastMasters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62BFE8FB1D12762900D54E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ToastMastersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ToastMastersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToastMasters.app/ToastMasters";
+			};
+			name = Debug;
+		};
+		62BFE8FC1D12762900D54E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ToastMastersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ToastMastersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToastMasters.app/ToastMasters";
+			};
+			name = Release;
+		};
+		62BFE8FE1D12762900D54E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ToastMastersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ToastMastersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ToastMasters;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		62BFE8FF1D12762900D54E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ToastMastersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ToastMastersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ToastMasters;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62BFE8CA1D12762900D54E4C /* Build configuration list for PBXProject "ToastMasters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BFE8F51D12762900D54E4C /* Debug */,
+				62BFE8F61D12762900D54E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BFE8F71D12762900D54E4C /* Build configuration list for PBXNativeTarget "ToastMasters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BFE8F81D12762900D54E4C /* Debug */,
+				62BFE8F91D12762900D54E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BFE8FA1D12762900D54E4C /* Build configuration list for PBXNativeTarget "ToastMastersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BFE8FB1D12762900D54E4C /* Debug */,
+				62BFE8FC1D12762900D54E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BFE8FD1D12762900D54E4C /* Build configuration list for PBXNativeTarget "ToastMastersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BFE8FE1D12762900D54E4C /* Debug */,
+				62BFE8FF1D12762900D54E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62BFE8C71D12762900D54E4C /* Project object */;
+}
